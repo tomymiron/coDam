@@ -1,0 +1,65 @@
+[debug] [2023-12-02T02:48:57.851Z] ----------------------------------------------------------------------
+[debug] [2023-12-02T02:48:57.853Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tomym\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-02T02:48:57.854Z] CLI Version:   12.9.1
+[debug] [2023-12-02T02:48:57.854Z] Platform:      win32
+[debug] [2023-12-02T02:48:57.854Z] Node Version:  v18.16.0
+[debug] [2023-12-02T02:48:57.856Z] Time:          Fri Dec 01 2023 23:48:57 GMT-0300 (Argentina Standard Time)
+[debug] [2023-12-02T02:48:57.856Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-02T02:48:57.865Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-02T02:48:57.866Z] > authorizing via signed-in user (tomymiron@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tomym\Desktop\codam\system
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-02T02:50:53.095Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-02T02:50:54.192Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-12-02T02:50:54.192Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project test-project-tomymiron (test-project) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-02T02:51:27.578Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-project-tomymiron [none]
+[debug] [2023-12-02T02:51:28.011Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-project-tomymiron 200
+[debug] [2023-12-02T02:51:28.012Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-project-tomymiron {"projectId":"test-project-tomymiron","projectNumber":"166223294211","displayName":"test-project","name":"projects/test-project-tomymiron","resources":{"hostingSite":"test-project-tomymiron"},"state":"ACTIVE","etag":"1_0ebfd8dd-9e06-4626-a27b-331983208527"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2023-12-02T02:52:22.938Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-12-02T02:52:23.738Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-12-02T02:52:23.739Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.7.0","browserURL":"https://www.gstatic.com/firebasejs/10.7.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.7.0/firebase.tgz"},"live":{"version":"10.7","browserURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.7.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.7.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.7.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.7.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.7.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.7.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.7.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.7.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\tomym 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=428509792&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-12-02T02:53:48.766Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-12-02T02:53:48.766Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-12-02T02:53:49.140Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-12-02T02:53:49.140Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-12-02T02:53:49.146Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-12-02T02:53:49.520Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-12-02T02:53:49.520Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"tomymiron","id":25042640,"node_id":"MDQ6VXNlcjI1MDQyNjQw","avatar_url":"https://avatars.githubusercontent.com/u/25042640?v=4","gravatar_id":"","url":"https://api.github.com/users/tomymiron","html_url":"https://github.com/tomymiron","followers_url":"https://api.github.com/users/tomymiron/followers","following_url":"https://api.github.com/users/tomymiron/following{/other_user}","gists_url":"https://api.github.com/users/tomymiron/gists{/gist_id}","starred_url":"https://api.github.com/users/tomymiron/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tomymiron/subscriptions","organizations_url":"https://api.github.com/users/tomymiron/orgs","repos_url":"https://api.github.com/users/tomymiron/repos","events_url":"https://api.github.com/users/tomymiron/events{/privacy}","received_events_url":"https://api.github.com/users/tomymiron/received_events","type":"User","site_admin":false,"name":"тoмy","company":null,"blog":"","location":"Argentina","email":"tomymiron@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":13,"public_gists":0,"followers":1,"following":1,"created_at":"2017-01-10T21:49:23Z","updated_at":"2023-11-02T04:59:28Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":102664,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as tomymiron 
+[info] 
